@@ -1,0 +1,8 @@
+header {
+  color: red;
+  font-size: 1em;
+}
+
+#nav-section, #mid-section, footer {
+  background-color: white;
+}
