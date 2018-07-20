@@ -1,4 +1,4 @@
-#menubar {
+#menubar, #footerbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -29,20 +29,23 @@ body {
 
 
 
-#mid-section, footer {
+#mid-section {
   position: relative;
   background-color: white;
   1margin-top: 10px;
   margin-bottom: 10px;
 }
 
-footer {
-   background-color : #333;
-   height: 30px;
-   width: 1250px;
-   color: white;
-   text-align: center;
-   vertical-align: middle;
-   position: fixed;
-   bottom: 10px;
+#footerbar {
+  1position: fixed;
+
+  bottom: 10px;
+}
+
+#footerbar > p {
+
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+
 }
