@@ -1,23 +1,33 @@
+#menubar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#menubar > li {
+  float: left;
+}
+
+#menubar > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menubar > li > a:hover {
+  background-color: #111;
+}
+
 body {
   background-color: gray;
 }
 
 
-#nav-section > nav > * {
-  width:100px;
-  height:100px;
-  border:1px solid gray;
-  display:inline;
-  background-color: yellow;
-  position: relative;
-  left: 1050px;
-  margin-left:10px;
 
-}
-#nav-section > nav {
-  position:relative;
-  background-color: white;
-}
 
 #mid-section, footer {
   position: relative;

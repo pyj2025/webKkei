@@ -4,67 +4,58 @@
     <meta charset="utf-8">
     <title>Dev Kkei</title>
     <style>
-      header {
+      #nav_id {
         position:relative;
         margin-bottom:10px;
-        1background-color: blue;
         color: white;
         font-size: 1em;
       }
 
       #mid-section > h1 {
+        font-style: oblique;
         text-align: center;
       }
 
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
+      #mid-section > p {
+        font-size: 15px;
+        margin-left: 10px;
+        1text-align: left;
       }
 
-      li {
-        float: right;
-      }
-
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        background-color: #111;
+      #body_box {
+        
       }
 
     </style>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <section id="nav-section">
-      <ul>
-        <li> <a href="#time">Time</a></li>
-        <li><a href="#picture">Picture</a></li>
-        <li><a href="#about">About</a></li>
+    <header id="header_id">
+      <ul id="menubar">
         <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photo">Photo</a></li>
+        <li style="float:right"><a href="#time">Time</a></li>
       </ul>
-    </section>
-    <header>
-      <h1>Welcome to Kkei's home!</h1>
     </header>
+
+    <nav id="nav_id">
+      <h1>Welcome to Kkei's home!</h1>
+    </nav>
+
     <section id="mid-section">
-      <h1>Web Frontend developer KKei</h1>
-      <p>Full stack practice</p>
-      <ul>
+      <h1>Web Frontend developer : KKei</h1>
+
+      <p>This is Kkei's 1st work as a Full stack developer.</p>
+
+      <ul id="body_box">
         <li>Introduce</li>
         <li>Picture</li>
       </ul>
+
       <div><img src="dd" alt=""/></div>
     </section>
-    <br>
+
     <footer>
       <span>Copyright @KKei (Youngjoon Park)</span>
     </footer>
