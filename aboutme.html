@@ -4,9 +4,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>About Kkei</title>
+    <style>
+      .list-menu {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        padding-top: 10px;
+        border-bottom-style: double;
+        list-style-type: square;
+      }
+
+      .introduce {
+        1color : red;
+        font-size: 1em;
+        font-family: verdana;
+      }
+
+      span.introduce, .projectlist, .portfoliolist {
+        color : #3c3c3c;
+      }
+
+      .portfoliolist {
+        padding-bottom: 15px;
+        padding-top: 10px;
+        list-style-type: circle;
+        list-style-position: outside;
+      }
+    </style>
     <link rel="stylesheet" href="main.css">
   </head>
-
   <body>
     <header id="header_id">
       <ul id="menubar">
@@ -19,30 +47,39 @@
 
     <div id="mid-section">
       <ul>
-        <li>Introduce</li>
-          <p>
-            Hi. I am Youngjoon Park.
-            I am working with the name Kkei.
-            I study in Purdue University.
-          </p>
-        <li>Portfolio</li>
+        <li class="list-menu">Introduce</li>
+          <span class="introduce" style="font-style: italic;"> I am Youngjoon Park.</span>
+          <br>
+          <span class="introduce"> I am working with the name Kkei.</span>
+          <br>
+          <span class="introduce"> I study in Purdue University.</span>
+          <br>
+          <br>
+        <li class="list-menu">Portfolio</li>
           <ul>
-            <li>Github link</li>
-              <a href="http://www.naver.com"> naver </a>
-            <li>LinkedIn link</li>
-            <li>Blog</li>
+            <li class="portfoliolist">Github link</li>
+              <a href="https://github.com/park612" style="font-style: italic; text-decoration: underline;"> School Project Github</a>
+              <br>
+              <a href="https://github.com/pyj2025" style="font-style: italic;  line-height: 2; text-decoration: underline;"> Personal Project Github </a>
+            <li class="portfoliolist">LinkedIn link</li>
+              <a href="https://www.linkedin.com/in/youngjoon-park-103bab148/" style="font-style: italic; text-decoration: underline;"> Youngjoon Park LinkedIn </a>
+            <li class="portfoliolist">Blog link</li>
+              <a href="http://dev-yjpark.tistory.com/" style="font-style: italic; text-decoration: underline;"> Kkei's Summarization of Life Studying </a>
           </ul>
-        <li>Project</li>
+        <li class="list-menu">Project</li>
           <ul>
-            <li>project 1</li>
-            <li>2</li>
-            <li>3</li>
+            <li class="projectlist">Foodie</li>
+              <p style="color:hsl(0, 0%, 25%);">Used : Swift, Firebase <br></p>
+            <li class="projectlist">FileAnalyzer</li>
+              <p>Used : HTML, CSS, JavaScript, Firebase <br></p>
+            <li class="projectlist">CarPlaner</li>
+              <p>Used : Java <br></p>
           </ul>
       </ul>
     </div>
 
-    <footer>
-      <span>Copyright @Youngjoon Park</span>
+    <footer id="footerbar">
+      <p>Copyright @KKei (Youngjoon Park)</p>
     </footer>
   </body>
 </html>

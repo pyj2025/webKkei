@@ -1,3 +1,6 @@
+/*
+  menubar and footer box size
+ */
 #menubar, #footerbar {
   list-style-type: none;
   margin: 0;
@@ -26,18 +29,14 @@ body {
   background-color: gray;
 }
 
-
-
-
 #mid-section {
   position: relative;
   background-color: white;
-  1margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #footerbar {
-  1position: fixed;
 
   bottom: 10px;
 }
